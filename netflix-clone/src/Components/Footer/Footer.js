@@ -15,30 +15,30 @@ const Footer = () => {
     <div className='footer_data'>
       <div>
         <ul>
-          <li>Audio Description</li>
-          <li>Investor</li>
-          <li>Legal Notice</li>
+          <li><a href="/" alt="">Audio Description</a></li>
+          <li><a href="/" alt="">Investor</a></li>
+          <li><a href="/" Legal="">Notice</a> </li>
         </ul>
       </div>
       <div>
         <ul>
-          <li>Help Center</li>
-          <li>Jobs</li>
-          <li>Cookie Preferences</li>
+          <li><a href="/" alt="">Help Center</a></li>
+          <li><a href="/" alt="">Jobs</a></li>
+          <li><a href="/" alt="">Cookie Preferences</a></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li>Gift Cards</li>
-          <li>Terms of Use</li>
-          <li>Corporate Information</li>
+          <li><a href="/" alt="">Gift Cards</a></li>
+          <li><a href="/" alt="">Terms of Use</a></li>
+          <li><a href="/" alt="">Corporate Information</a></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li>Media Center</li>
-          <li>Privacy</li>
-          <li>Contact Us</li>
+          <li><a href="/" alt="">Media Center</a></li>
+          <li><a href="/" alt="">Privacy</a></li>
+          <li><a href="/" alt="">Contact Us</a></li>
         </ul>
       </div>
     </div>
