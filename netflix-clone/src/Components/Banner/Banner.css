@@ -1,0 +1,61 @@
+.banner {
+    margin-top: 10vh;
+    height: 80vh;
+    margin-bottom: 80px;
+    color: white;
+    object-fit: contain; /* This property doesn't apply to divs; removed it for clarity */
+}
+
+.banner_contents {
+    margin-left: 30px;
+    padding-top: 300px;
+}
+
+.banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner_description {
+    width: 45rem;
+    line-height: 1.5; /* Adjusted for better readability */
+    padding: 1rem;
+    font-size: 1rem;
+    max-width: 360px;
+    height: auto; /* Changed to auto to accommodate varying content */
+}
+
+.banner_buttons {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+    
+}
+
+.play {
+    color: #000;
+    background-color: #fff;
+}
+
+.banner_button:hover {
+    color: #000;
+    background-color: #c6c6c6;
+    transition: all 0.2s; /* Fixed the transition property */
+}
+
+.banner_fadeBottom {
+    height: 40vh;
+    background-image: linear-gradient(
+        180deg,
+        transparent, /* Fix transparency spelling */
+        rgba(37, 37, 37, 0.91), /* Corrected to use rgba */
+        #111
+    );
+}

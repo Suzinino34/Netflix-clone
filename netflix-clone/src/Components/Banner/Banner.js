@@ -1,6 +1,7 @@
-import { Button } from '@mui/material';
+import requests from '../../utils/requests';
 import axios from '../../utils/axios';
 import React, { useState, useEffect } from 'react';
+import '../Banner/Banner.css';
 
 const Banner = () => {
     const [movie, setMovie] = useState({});
@@ -13,7 +14,8 @@ const Banner = () => {
                     Math.floor(Math.random() * request.data.results.length)
                 ]);
             } catch (error) {
-                console.log(error);
+                console.log('requests:', requests);
+
             }
         };
         
@@ -41,8 +43,9 @@ const Banner = () => {
                     <button className='banner_button play'>Play</button>
                     <button className='banner_button'>My List</button>
                 </div>
-                <h1 className='banner_description'>{truncate(movie?.overview, 150)}</h1>
+               <h1 className='banner_description'>{truncate(movie?.overview, 150)}</h1> 
             </div>
+            <div className='banner_fadeBottom'/>
         </div>
     );
 };

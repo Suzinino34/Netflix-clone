@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import logoImage from "../../Components/image/NetflixLogo.png";
 import'../../index.css';
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
             <div className='header_Left'>
                 <ul>
                     
-                    <li>Netflix</li>
+                    <li>
+                    <img src={logoImage} alt="Netflix Logo" width="100" />
+                    </li>
                     <li>Home</li>
                     <li>TVShows</li>
                     <li>Movies</li>
